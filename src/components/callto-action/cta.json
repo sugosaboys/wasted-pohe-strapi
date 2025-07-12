@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_callto_action_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

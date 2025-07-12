@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "followthe_wastes",
+  "info": {
+    "singularName": "followthe-waste",
+    "pluralName": "followthe-wastes",
+    "displayName": "PageFollowtheWaste"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeroDescription": {
+      "type": "component",
+      "component": "section.hero-description",
+      "repeatable": true
+    },
+    "ImageWithCaption": {
+      "type": "component",
+      "component": "image-with-caption.follow-the-waste",
+      "repeatable": false
+    },
+    "ImageCaption": {
+      "type": "component",
+      "component": "image-with-caption.follow-the-waste",
+      "repeatable": false
+    },
+    "CTA": {
+      "type": "component",
+      "component": "callto-action.cta",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_composition_field_compositions",
+  "info": {
+    "displayName": "composition"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "Composition": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_image_with_caption_follow_the_wastes",
+  "info": {
+    "displayName": "FollowTheWaste"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ImageSecond": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "captionSecond": {
+      "type": "string"
+    },
+    "ImageThird": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "captionThird": {
+      "type": "string"
+    },
+    "ImageFourth": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "captionFourth": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

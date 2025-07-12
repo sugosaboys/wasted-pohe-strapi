@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BackButton": {
+      "type": "component",
+      "component": "callto-action.cta",
+      "repeatable": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "DesignerField": {
+      "type": "richtext"
+    },
+    "composition": {
+      "type": "component",
+      "component": "composition-field.composition",
+      "repeatable": true
+    },
+    "ImageWithCaption": {
+      "type": "component",
+      "component": "image-with-caption.follow-the-waste",
+      "repeatable": false
+    },
+    "ImageCaption": {
+      "type": "component",
+      "component": "image-with-caption.follow-the-waste",
+      "repeatable": false
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "products_glimpse": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::products-glimpse.products-glimpse",
+      "inversedBy": "content"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "contents"
+    },
+    "CTA": {
+      "type": "component",
+      "component": "callto-action.cta",
+      "repeatable": false
+    }
+  }
+}

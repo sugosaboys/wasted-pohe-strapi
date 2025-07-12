@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_section_hero_descriptions",
+  "info": {
+    "displayName": "HeroDescription"
+  },
+  "options": {},
+  "attributes": {
+    "TextDescription": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
