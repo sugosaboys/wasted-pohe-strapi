@@ -22,7 +22,7 @@
       ]
     },
     "HeroText": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "richtext"
