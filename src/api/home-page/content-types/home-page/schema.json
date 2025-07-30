@@ -13,13 +13,16 @@
   "attributes": {
     "image": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ]
+    },
+    "HeroText": {
+      "type": "string"
     },
     "description": {
       "type": "richtext"
