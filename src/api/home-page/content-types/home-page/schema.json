@@ -21,11 +21,11 @@
         "audios"
       ]
     },
-    "HeroText": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
+    },
+    "HeroText": {
+      "type": "text"
     }
   }
 }
