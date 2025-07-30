@@ -22,7 +22,8 @@
       ]
     },
     "HeroText": {
-      "type": "text"
+      "type": "string",
+      "private": false
     },
     "description": {
       "type": "richtext"
